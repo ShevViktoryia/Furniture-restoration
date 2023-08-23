@@ -1,0 +1,11 @@
+.client {
+  display: block;
+  width: 100%;
+  max-width: 230px;
+}
+
+.client_img {
+  height: 100%;
+  min-height: 221px;
+  max-height: 336px;
+}

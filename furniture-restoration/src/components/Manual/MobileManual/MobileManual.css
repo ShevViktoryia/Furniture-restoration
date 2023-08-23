@@ -1,0 +1,19 @@
+@media screen and (max-width: 1200px) {
+  .manual_section {
+    flex-direction: column;
+    padding-bottom: 142px;
+  }
+
+  .manual_wrapper > p {
+    padding-bottom: 32px;
+  }
+
+  .manual_img {
+    margin-top: 60px;
+    margin-bottom: 90px;
+  }
+
+  .manual_text {
+    padding: 0;
+  }
+}

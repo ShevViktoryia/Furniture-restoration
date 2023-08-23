@@ -1,0 +1,23 @@
+.work {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.work_img {
+  display: block;
+  width: 100%;
+  max-width: 261px;
+  min-width: 139px;
+  height: 300px;
+}
+
+.work_condition {
+  padding-top: 25px;
+}
+
+@media screen and (max-width: 1200px) {
+  .work_img {
+    height: 161px;
+  }
+}

@@ -1,0 +1,35 @@
+.footer_mobile {
+  padding: 40px 89px 155px 38px;
+}
+
+.footer_wrapper_mobile {
+  width: 100%;
+  max-width: 248px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_wrapper_mobile > .wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.social_links_mobile {
+  display: flex;
+  justify-content: space-between;
+  width: fit-content;
+  margin-bottom: 110px;
+}
+
+.footer_nav_mobile {
+  width: 100%;
+  flex-direction: column;
+}
+
+.politics_mobile {
+  margin: 53px 0;
+}
+
+.developer_mobile {
+  margin-top: 57px;
+}
