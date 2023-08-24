@@ -1,8 +1,0 @@
-#link a {
-  color: #323232;
-}
-
-#link:hover {
-  border-bottom: 1px solid #323232;
-  transition: .5s ease;
-}
