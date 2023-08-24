@@ -8,6 +8,13 @@
   justify-content: end;
 }
 
+#open_header {
+  position: fixed;
+}
+#open_header > .burder_icon {
+  padding-right: 30px;
+}
+
 .mobile {
   display: none;
 }
@@ -18,8 +25,7 @@
   position: fixed;
   margin: 0;
   float: none;
-  padding-top: 83px;
-  padding-left: 10px;
+  padding: 83px 30px 30px 10px;
   height: 200px;
   width: 100%;
   z-index: 4;
@@ -27,7 +33,7 @@
   align-items: flex-end;
   background-color: var(--white);
   transform: translateX(100%);
-  transition: transform 2s ease;
+  transition: transform 1.9s ease;
 }
 
 #open {
@@ -40,9 +46,8 @@
   justify-content: space-between;
   height: 200px;
   transform: translateX(0%);
-  padding-top: 83px;
-  padding-left: 10px;
-  transition: transform 1.5s ease;
+  padding: 83px 30px 30px 10px;
+  transition: transform 0.5s ease;
 }
 
 .burder_icon {

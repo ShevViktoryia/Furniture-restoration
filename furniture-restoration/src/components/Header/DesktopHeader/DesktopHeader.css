@@ -9,6 +9,10 @@
   padding-top: 31px;
   padding-bottom: 21px;
   width: 100%;
-  max-width: 87px;
+  width: 87px;
   height: 86px;
+}
+
+.header_logo:hover {
+  cursor: pointer;
 }

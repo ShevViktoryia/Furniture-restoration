@@ -10,7 +10,7 @@ const DesktopHeader = () => {
           <nav className="header_block">
             <CustomLink to="/master-classes">Мастер-классы</CustomLink>
             <CustomLink to="/custom-made-furniture">Мебель на заказ</CustomLink>
-            <div className="header_logo"><a href="/"></a></div>
+            <div className="header_logo"><CustomLink to="/Furniture-restoration" /></div>
             <CustomLink to="/">Контакты</CustomLink>
             <CustomLink to="/about-us">О нас</CustomLink>
           </nav>

@@ -5,13 +5,15 @@ import CustomLink from '../../CustomLink/CustomLink'
 
 const MobileHeader = () => {
   const [open, setOpen] = useState(MenuContext);
+  const [open_header, setOpenHeader] = useState();
   const handleMenuOpen = () => {
     setOpen(open === 'open' ? 'close' : 'open');
+    setOpenHeader(open_header === 'open_header' ? '' : 'open_header');
   }
   return (
     <header className="header_mobile">
       <div className="wrapper">
-        <div className="header_wrapper_mobile">
+        <div className="header_wrapper_mobile" id={open_header}>
           <ul className="burder_icon" onClick={handleMenuOpen}>
             <li></li>
             <li></li>
